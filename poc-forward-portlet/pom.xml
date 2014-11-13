@@ -20,7 +20,16 @@
 		<liferay.app.server.lib.global.dir>${liferay.bundles.dir}/liferay-portal-6.2-ce-ga2/tomcat-7.0.42/lib/ext</liferay.app.server.lib.global.dir>
 		<liferay.app.server.portal.dir>${liferay.bundles.dir}/liferay-portal-6.2-ce-ga2/tomcat-7.0.42/webapps/ROOT</liferay.app.server.portal.dir>
 		<liferay.auto.deploy.dir>${liferay.bundles.dir}/liferay-portal-6.2-ce-ga2/deploy</liferay.auto.deploy.dir>
+
 	</properties>
+	<profiles>
+		<profile>
+			<id>ar</id>
+			<properties>
+				<liferay.auto.deploy.dir>d:\workspaces\Rhenus\bundles\liferay-portal-6.2-ce-ga2\deploy\</liferay.auto.deploy.dir>
+			</properties>
+		</profile>
+	</profiles>
 	<build>
 		<plugins>
 			<plugin>
